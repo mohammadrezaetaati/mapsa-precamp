@@ -9,10 +9,6 @@ def ready_up():
     source=open('esm_famil_data.csv')
     data=csv.reader(source)
     
-    
-       
-
-
 def add_participant(participant:str,**answers):
     name.update({participant:[]})
     namlist.append(participant)
@@ -21,9 +17,7 @@ def add_participant(participant:str,**answers):
             if val11.isspace() or val11=='':
                 bank[key].append(None)
             else:
-                bank[key].append(val11)
-
-                
+                bank[key].append(val11)  
 
 def calculate_all():
     c_data=0
@@ -50,11 +44,12 @@ def calculate_all():
       
             
    
-add_participant(participant='mo',answers={'esm':'بردیا','famil':'بابایی','keshvar':' rg','rang':'ghn','ashia':'moz','ghaza':'kabab'})
-add_participant(participant='ali',answers={'esm':'بردیا','famil':'mohammad','keshvar':' rg','rang':'hn','ashia':'khiar','ghaza':'morgh'})
-add_participant(participant='hasan',answers={'esm':'بردیا','famil':'mohammad','keshvar':' rg','rang':'hn','ashia':'khiar','ghaza':'morgh'})
-print(bank)
+add_participant(participant = 'salib', answers = {'esm': 'بردیا', 'famil': 'بابایی', 'keshvar': 'باربادوس', 'rang': 'بنفش', 'ashia': 'بمب', 'ghaza': 'باقالیپلو'})
+add_participant(participant = 'kianoush', answers = {'esm': 'بهرام', 'famil': 'بهرامی', 'keshvar': 'برزیل', 'rang': 'بلوطی', 'ashia': 'بیل', 'ghaza': 'به   پلو'})
+add_participant(participant = 'sajjad', answers = {'esm': 'بابک', 'famil': 'بهشتی', 'keshvar': 'باهاما', 'rang': 'بژ', 'ashia': '        ', 'ghaza': 'برنج خورشت'})
+add_participant(participant = 'farhad', answers = {'esm': 'بهرام', 'famil': 'براتی', 'keshvar': 'بببببب', 'rang': 'بژ', 'ashia': 'بیل', 'ghaza': 'باقلوا'})
+
 ready_up()
 calculate_all()
 print(name)
-
+print(bank)

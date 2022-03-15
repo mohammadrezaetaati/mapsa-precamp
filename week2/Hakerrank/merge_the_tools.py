@@ -9,7 +9,6 @@ def merge_the_tools(string, k):
                 print(string[i],end='')
         distinct_str.append('')
         print()
-    # return f''
 
 
 

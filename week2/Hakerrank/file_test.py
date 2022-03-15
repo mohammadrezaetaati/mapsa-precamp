@@ -1,6 +1,0 @@
-file=open('file1.txt','a')
-file.write("Heloooooooo")
-file.close()
-file=open('file1.txt','r')
-print(file.read())
-file.close()

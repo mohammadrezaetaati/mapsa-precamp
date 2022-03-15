@@ -1,7 +1,0 @@
-print('c'.center(9,'-'))
-print('c-b-c'.center(9,'-'))
-print('c-b-a-b-c'.center(9,'-'))
-print('-'+chr(98)+'-')
-print(ord('a'))
-print(ord('b'))
-print('ali ali'.title())
