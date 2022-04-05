@@ -1,0 +1,5 @@
+number=int(input())
+divisor=int(input())
+print(number//divisor)
+print(number%divisor)
+print((number//divisor,number%divisor))

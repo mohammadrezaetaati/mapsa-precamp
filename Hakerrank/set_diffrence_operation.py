@@ -1,0 +1,5 @@
+number_english=int(input())
+student_english=set(map(int,input().split()))
+number_french=int(input())
+student_french=set(map(int,input().split()))
+print(len(student_english.difference(student_french)))

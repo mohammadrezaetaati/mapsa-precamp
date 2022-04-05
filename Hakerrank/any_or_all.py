@@ -1,0 +1,5 @@
+# a,b=input().split()
+# print(int(a)+int(b))
+n=input()
+palindromic=list(map(lambda x:int(x)>=0,input().split()))
+print(all(palindromic)) if len(palindromic)>1 else print(False)

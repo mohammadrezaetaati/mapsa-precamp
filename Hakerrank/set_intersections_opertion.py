@@ -1,0 +1,8 @@
+number_english=int(input())
+student_list=input().split()
+student_list=set(map(lambda x:int(x),student_list))
+number_french=int(input())
+student_inter=input().split()
+student_inter=set(map(lambda x:int(x),student_inter))
+intersection=student_list.intersection(student_inter)
+print(len(intersection))

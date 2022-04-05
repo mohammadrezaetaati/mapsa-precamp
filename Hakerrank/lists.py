@@ -1,4 +1,4 @@
-input_count=int(input('Enter Number commands :'))
+input_count=int(input())
 list_custom=[]
 for c in range(input_count):
     command,*number=input().split()
