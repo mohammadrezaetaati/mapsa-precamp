@@ -68,19 +68,6 @@ class Site():
             else:
                 return 'user in not logout in'
     
-user1=Account('mohamm_k','1245moHafff','09353992983','mo@ali.codd')
-user2=Account('mohamm_l','041mohammaJ','09102425410','moh@amm.codd')
-user3=Account('mohamm_j','041mohammaJ','09102425410','moh@amm.codd')
-site=Site('www.',[],[])
-print(site.register(user1))
-print(site.register(user2))
-print(site.register(user3))
-print(site.login('1245moHafff',email='mo@ali.codd'))
-print(site.login('1245moHafff',email='mo@ali.codd'))
-print(site.logout(user1))
 
-
-
-# site.login('1245moHafff')
 
 
